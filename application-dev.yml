@@ -21,12 +21,6 @@ spring:
     port: 6379
     password: shionvaman
     database: 0
-    lettuce:
-      pool:
-        max-active: 32
-        max-wait: 300ms
-        max-idle: 16
-        min-idle: 8
     timeout: 10000
   rabbitmq:
     host: 127.0.0.1
