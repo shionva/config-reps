@@ -37,7 +37,7 @@ redis:
 ribbon:
   eager-load:
     enabled: true
-    clients: panda-auth,panda-user-service
+    clients: fymes-auth,fymes-user-service
   Httpclient:
     enabled: true
   OkHttp:
