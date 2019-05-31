@@ -37,13 +37,13 @@ redis:
 ribbon:
   eager-load:
     enabled: true
-    clients: fymes-auth,fymes-user-service
+    clients: panda-auth,panda-user-service
   Httpclient:
     enabled: true
   OkHttp:
     enabled: false
-  ReadTimeout: 10000
-  ConnectTimeout: 10000
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
 
 feign:
   hystrix:
